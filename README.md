@@ -20,11 +20,10 @@ To run the code, you need a CSV dataset named events.csv in the same directory. 
 
 Once you have the data set up, you can run the code directly. The script will preprocess the data, train the Item2Vec model, and then prompt you to enter a sequence of 5 item IDs. It will then use the model to recommend the next item.
 
-python
-
 python item2vec_recommender.py
 
 When running the script, you will be prompted to input 5 item ids one by one. After the inputs, the script will output the recommended next item based on the Item2Vec model.
+
 Understanding the Code
 
 The script trains an Item2Vec model on sessions extracted from your data. A session is defined as a sequence of items viewed by the same visitor, and each item is represented by its item ID.
